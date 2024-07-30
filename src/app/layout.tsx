@@ -5,7 +5,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	title: "Way To Lim's Heart",
+	title: "Way To Lim's Heart ❤️🦋",
 	description:
 		"You are Lim's lover who wants to win Lim's affection, but the path is not easy. You have find your way in a land full of mines and the pain of starting all over again. You should not give up as destiny awaits to grant you a special something!",
 };
