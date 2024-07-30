@@ -92,7 +92,7 @@ We'll live our love, a cherished dream. 🫶🏻❤️`);
 				row.push(
 					<div
 						key={`${x}-${y}`}
-						className={`w-12 h-12 border border-gray-300 flex items-center justify-center cursor-pointer transition-all duration-300
+						className={`w-10 h-10 border border-gray-300 flex items-center justify-center cursor-pointer transition-all duration-300
               ${isAdjacent ? 'hover:bg-blue-200' : 'hover:bg-gray-100'}
               ${isExploded ? 'bg-red-500 animate-pulse' : ''}
               ${isPlayer ? 'bg-yellow-200' : ''}
@@ -115,7 +115,7 @@ We'll live our love, a cherished dream. 🫶🏻❤️`);
 	return (
 		<div className='flex flex-col items-center p-8 bg-gradient-to-r from-cyan-500 to-blue-500 min-h-screen'>
 			<h1 className='text-2xl font-bold mb-2 text-white'>Way to Lim's Heart ❤️🦋</h1>
-			<div className='mb-6 text-md text-white'>Moves you have made to reach Lim's heart: {moveCount}</div>
+			<div className='mb-6 text-sm text-white'>Moves you have made to reach Lim's heart: {moveCount}</div>
 			<div className='border-4 border-white rounded-lg shadow-2xl mb-4 bg-white bg-opacity-20 backdrop-blur-lg'>
 				{renderBoard()}
 			</div>
